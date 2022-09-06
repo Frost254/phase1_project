@@ -87,7 +87,7 @@ header img {
 .header .container {
     display: flex;
     align-items: center;
-    justofy-content: space-between;
+    justify-content: space-between;
 }
 
 .boxes .container {
