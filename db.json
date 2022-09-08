@@ -1,0 +1,15 @@
+{
+    "hotelData": [{
+            "name": "Jukes Serene Westlands Villa",
+            "imageUrl": "/images/a.jpg",
+            "description": "A home away from home",
+            "likes": 0
+        },
+        {
+            "name": "Jukes Serene Westlands Villa",
+            "imageUrl": "/images/a.jpg",
+            "description": "A home away from home",
+            "likes": 0
+        }
+    ]
+}
