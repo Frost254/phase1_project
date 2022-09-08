@@ -6,8 +6,14 @@
             "likes": 0
         },
         {
-            "name": "Jukes Serene Westlands Villa",
-            "imageUrl": "/images/a.jpg",
+            "name": "Kasty M Apartments",
+            "imageUrl": "/images/b.jpg",
+            "description": "A home away from home",
+            "likes": 0
+        },
+        {
+            "name": "Ibis Styles Apartments",
+            "imageUrl": "/images/b.jpg",
             "description": "A home away from home",
             "likes": 0
         }
