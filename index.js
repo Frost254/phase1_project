@@ -1,6 +1,6 @@
 function renderHotel(hotel) {
     let box = document.createElement("div");
-    div.className = "box";
+    box.className = "box";
     box.innerHTML = `
     <h1>${hotel.name}</h1>
     <img src="${hotel.imageUrl}" alt = "hotel-picture">
@@ -18,12 +18,14 @@ function renderHotel(hotel) {
     document.querySelector(".boxes .container").appendChild(box)
 }
 
-let
+function renderComments(params) {
+
+}
 
 function getHotelData() {
     fetch("http://localhost:3000/hotelData")
         .then(res => res.json())
-        .then(hotelData => console.log(hotelData))
+        .then(hotelData => hotelData.forEach(hotel => renderHotel(hotel)))
 }
 
 function initialize() {
