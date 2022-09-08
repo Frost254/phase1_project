@@ -1,6 +1,6 @@
 {
     "hotelData": [{
-            "name": "Jukes Serene Villa",
+            "name": "Belles Suite",
             "imageUrl": "/images/a.jpg",
             "description": "A home away from home",
             "likes": 0
@@ -13,7 +13,7 @@
         },
         {
             "name": "Ibis Styles Apartments",
-            "imageUrl": "/images/b.jpg",
+            "imageUrl": "/images/c.jpg",
             "description": "A home away from home",
             "likes": 0
         }
