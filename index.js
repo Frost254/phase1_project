@@ -18,6 +18,8 @@ function renderHotel(hotel) {
     document.querySelector(".boxes .container").appendChild(box)
 }
 
+let
+
 function getHotelData() {
     fetch("http://localhost:3000/hotelData")
         .then(res => res.json())
