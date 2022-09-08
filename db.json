@@ -17,5 +17,18 @@
             "description": "A home away from home",
             "likes": 0
         }
+    ],
+    "comments": [{
+            "firstName": "Alan",
+            "secondName": "Smith",
+            "location": "Nairobi",
+            "subject": "I'm happy to use this app"
+        },
+        {
+            "firstName": "Alan",
+            "secondName": "Smith",
+            "location": "Nairobi",
+            "subject": "I'm happy to use this app"
+        }
     ]
 }

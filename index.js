@@ -28,7 +28,14 @@ function getHotelData() {
         .then(hotelData => hotelData.forEach(hotel => renderHotel(hotel)))
 }
 
+function getCommentData() {
+    fetch("http://localhost:3000/comments")
+        .then(res => res.json())
+        .then(commentData => commentData.forEach(comment => renderComments(comment)));
+}
+
 function initialize() {
+    getCommentData();
     getHotelData();
     // hotelData.forEach(hotel => renderHotel(hotel))
 }
